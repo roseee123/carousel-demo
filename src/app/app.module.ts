@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { CardComponent } from './card/card.component';
 import { ShareModule } from './share/share.module';
 import { CarouselComponent } from './carousel/carousel.component';
+import { EditorComponent } from './editor/editor.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CardComponent,
-    CarouselComponent
+    CarouselComponent,
+    EditorComponent
   ],
   imports: [
     BrowserModule,
